@@ -1,0 +1,8 @@
+display:
+  cycle: false
+  inverted: true
+  orientation: 90
+lightning:
+  macaroon: <INSERT MACAROON>
+ticker:
+  updatefrequency: 120
