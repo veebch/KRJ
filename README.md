@@ -8,3 +8,7 @@
 A Simple Proof Of Concept for triggering workflows upon payment of a Lightning Invoice. It was written to ping lnd on an Umbrel node on the LAN. When it sees that a pending invoice has been paid, it triggers omxplayer. 
 
 There are more far better ways to do this, but it illustrates the simplicity, speed and flexibility of using Lightning as a payments mechanism.
+
+# Licence
+
+GPL 3.0
