@@ -8,7 +8,6 @@ import currency
 import os
 import sys
 import logging
-#from waveshare_epd import epd2in7
 from IT8951 import constants
 import time
 import requests
@@ -150,13 +149,11 @@ def main():
                 print("is:"+str(isthereaninvoice))
                 print("was:"+str(wasthereaninvoice))
                 invoicechange = True
+                # Insert code to be triggered by this change
             else:
                 print("NOCHANGE")
                 invoicechange = False
-            time.sleep(1)
-            
-
-
+            time.sleep(1)   
 
     except IOError as e:
         logging.info(e)
