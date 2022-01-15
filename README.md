@@ -11,7 +11,7 @@ A Simple Proof Of Concept for triggering workflows upon payment of a Lightning I
 
 Edit the config.yaml file to include the macaroon for your instance of lnd. If you are using a similar display, install [IT8951](https://github.com/GregDMeyer/IT8951).
 
-There are more far better ways to do this, but it illustrates the simplicity, speed and flexibility of using Lightning as a payments mechanism.
+There are tons of other (far better) ways to do this, but it illustrates the simplicity, speed and flexibility of using Lightning as a payments mechanism.
 
 # Licence
 
